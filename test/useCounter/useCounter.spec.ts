@@ -1,7 +1,7 @@
 // somewhere/useCounter.spec.js
 import { act, renderHook } from '@testing-library/react-hooks';
 import { describe, expect, it } from 'vitest';
-import useCounter from '../useCounter';
+import useCounter from 'hooks';
 
 describe('Test useCounter', () => {
   describe('increment', () => {

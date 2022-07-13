@@ -45,6 +45,9 @@
     "react": "^16.8.0",
     "vue": "^3.0.0"
   },
+  "dependencies": {
+    "hooks":"workspace:*"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",
     "@antfu/ni": "^0.16.3",

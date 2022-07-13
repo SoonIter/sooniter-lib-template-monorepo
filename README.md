@@ -1,8 +1,8 @@
-# sooniter-lib-template
+# sooniter-lib-template-monorepo
 
-my template to create npm modules
+my template of repo with pnpm and vitest
 
 ```shell
-npx degit SoonIter/sooniter-lib-template my-lib-name
-pnpx degit SoonIter/sooniter-lib-template my-lib-name
+npx degit SoonIter/sooniter-lib-template-monorepo my-lib-name
+pnpx degit SoonIter/sooniter-lib-template-monorepo my-lib-name
 ```

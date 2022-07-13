@@ -1,0 +1,15 @@
+{
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./hooks/useCounter.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ice-fancy/shared": "workspace:*"
+  },
+  "author": "SoonIter",
+  "license": "MIT"
+ 
+}

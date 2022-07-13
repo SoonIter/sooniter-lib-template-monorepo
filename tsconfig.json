@@ -25,7 +25,6 @@
     "noImplicitAny": false,
     "noUnusedLocals": false
   },
-  "include": ["./src/index.ts"],
   "exclude": [
     "dist",
     "node_modules",
