@@ -13,6 +13,7 @@
         ]
       }
     ],
+    "eslint-comments/no-unlimited-disable": "off",
     "import/no-named-as-default": "off"
   },
   "overrides": [
