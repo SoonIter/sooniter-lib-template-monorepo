@@ -1,5 +1,5 @@
 {
-  "name": "sooniter-lib-template",
+  "name": "sooniter-lib-template-monorepo",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@7.5.0",
@@ -18,8 +18,8 @@
     "usePagination",
     "vue"
   ],
-  "main": "dist/react/usePagination.js",
-  "types": "dist/react/usePagination.d.ts",
+  "main": "",
+  "types": "",
   "files": [
     "dist",
     "package.json",
@@ -55,8 +55,8 @@
     "@vitest/ui": "^0.15.1",
     "c8": "^7.11.3",
     "eslint": "^8.18.0",
-    "happy-dom": "^6.0.2",
-    "jsdom": "^19.0.0",
+    "happy-dom": "^6.0.3",
+    "jsdom": "^20.0.0",
     "lint-staged": "13.0.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -65,8 +65,7 @@
     "tsup": "^6.1.3",
     "typescript": "^4.7.4",
     "vite": "^3.0.0",
-    "vitest": "^0.18.0",
-    "vue": "^3.2.33"
+    "vitest": "^0.18.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
