@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { add } from '@ice-fancy/shared'
+import { add } from '@[name]/shared'
 
 function useCounter() {
   const [count, setCount] = useState(0);

@@ -1,13 +1,13 @@
 {
-  "name": "hooks",
+  "name": "@[name]/hooks",
   "version": "1.0.0",
   "description": "",
-  "main": "./hooks/useCounter.ts",
+  "main": "./src/useCounter.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@ice-fancy/shared": "workspace:*"
+    "[name]/shared": "workspace:*"
   },
   "author": "SoonIter",
   "license": "MIT"

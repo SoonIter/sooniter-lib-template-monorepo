@@ -1,10 +1,10 @@
 {
-  "name": "[name]-monorepo",
+  "name": "@[name]/[name]-monorepo",
   "type": "module",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@7.5.0",
-  "description": "自用的库模版",
+  "description": "[name] monorepo template",
   "author": {
     "name": "SoonIter",
     "email": "1730214056@qq.com"
@@ -43,7 +43,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "hooks": "workspace:*"
+    "[name]/hooks": "workspace:*"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",

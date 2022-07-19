@@ -1,6 +1,6 @@
 {
-  "name": "@ice-fancy/shared",
-  "version": "1.0.0",
+  "name": "@[name]/shared",
+  "version": "0.1.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
