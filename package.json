@@ -35,8 +35,8 @@
     "test:once": "vitest run",
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
-    "lint": "eslint src/**/*.*",
-    "lint:fix": "eslint src/**/*.* --fix"
+    "lint": "eslint .",
+    "lint:fix": "nr lint --fix"
   },
   "publishConfig": {
     "access": "public",
