@@ -29,7 +29,7 @@
   ],
   "scripts": {
     "build": "tsup ./src/index.ts",
-    "release": "nr prerelease && nr build && npm publish",
+    "release": "nr prerelease && nr build && pnpm publish",
     "prerelease": "nr lint:fix && nr test:once",
     "test": "vitest",
     "test:once": "vitest run",
